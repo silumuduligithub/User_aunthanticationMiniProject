@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="homeStyle.css">
+</head>
+<body>
+    <section  style="width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h3 id="sign-text">Signup Successful!</h3>
+        <div id="home-hero-section">
+            <p id="profile">Profile</p>
+            <img src="./images/head.png">
+            <img src="./images/body.png">
+            <p class="text">Full Name : <span id="name"></span></p>
+            <p class="text">Email : <span id="email"></span></p>
+            <p class="text">Token: <span id="token"></span></p>
+            <p class="text">Password : <span id="password"></span></p>
+            <button type="submit" onclick="Logout()">LOGOUT</button>
+        </div>
+    </section>
+    <script src="./homepage.js"></script>
+</body>
+</html>
